@@ -4,8 +4,6 @@ import { NavController, Platform } from 'ionic-angular';
 
 import {Geolocation, GoogleMap, GoogleMapsEvent, GoogleMapsLatLng} from 'ionic-native';
 
-declare var google;
-
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
